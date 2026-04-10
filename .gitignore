@@ -1,0 +1,14 @@
+node_modules/
+dist/
+release/
+.trade-runtime/
+
+*.log
+*.tmp
+*.cache
+
+api-check.json
+api-refresh.json
+
+.DS_Store
+Thumbs.db

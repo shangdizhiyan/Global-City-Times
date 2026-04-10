@@ -1,0 +1,5853 @@
+{
+  "continents": [
+    {
+      "key": "Asia",
+      "nameZh": "亚洲",
+      "nameEn": "Asia",
+      "description": "东亚、东南亚、南亚、中东重点市场"
+    },
+    {
+      "key": "Europe",
+      "nameZh": "欧洲",
+      "nameEn": "Europe",
+      "description": "西欧、中欧、北欧、南欧主要国家"
+    },
+    {
+      "key": "North America",
+      "nameZh": "北美洲",
+      "nameEn": "North America",
+      "description": "北美、中美洲与加勒比常见市场"
+    },
+    {
+      "key": "South America",
+      "nameZh": "南美洲",
+      "nameEn": "South America",
+      "description": "拉美南美国家开发区"
+    },
+    {
+      "key": "Africa",
+      "nameZh": "非洲",
+      "nameEn": "Africa",
+      "description": "北非、西非、东非、中非、南部非洲"
+    },
+    {
+      "key": "Oceania",
+      "nameZh": "大洋洲",
+      "nameEn": "Oceania",
+      "description": "澳新及太平洋岛国市场"
+    },
+    {
+      "key": "Antarctica",
+      "nameZh": "南极洲",
+      "nameEn": "Antarctica",
+      "description": "无常驻主权国家，仅科研站点"
+    }
+  ],
+  "countries": [
+    {
+      "code": "CN",
+      "nameZh": "中国",
+      "nameEn": "China",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Shanghai",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "china",
+        "prc"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇨🇳",
+        "capital": "Beijing",
+        "continent": "Asia",
+        "population": "1,408,280,000 人",
+        "area": "9,706,961 km²",
+        "majorCities": [
+          "上海",
+          "深圳",
+          "广州"
+        ],
+        "languages": [
+          "Chinese"
+        ],
+        "currencyName": "Chinese yuan",
+        "currencyCode": "CNY",
+        "dialingCode": "+86",
+        "drivingSide": "右侧通行",
+        "dateFormat": "YYYY/MM/DD",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 50Hz，A/C/I 插头",
+        "domainSuffix": ".cn / .中国 / .中國 / .公司 / .网络",
+        "religion": "佛教、道教、民间信仰、无宗教",
+        "isoCode": "CN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "JP",
+      "nameZh": "日本",
+      "nameEn": "Japan",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Tokyo",
+      "timezones": [
+        "UTC+09:00"
+      ],
+      "aliases": [
+        "japan"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇯🇵",
+        "capital": "Tokyo",
+        "continent": "Asia",
+        "population": "123,210,000 人",
+        "area": "377,930 km²",
+        "majorCities": [
+          "东京",
+          "大阪",
+          "名古屋"
+        ],
+        "languages": [
+          "Japanese"
+        ],
+        "currencyName": "Japanese yen",
+        "currencyCode": "JPY",
+        "dialingCode": "+81",
+        "drivingSide": "左侧通行",
+        "dateFormat": "YYYY/MM/DD",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "100V / 50-60Hz，A/B 插头",
+        "domainSuffix": ".jp / .みんな",
+        "religion": "神道教、佛教",
+        "isoCode": "JP"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "KR",
+      "nameZh": "韩国",
+      "nameEn": "South Korea",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Seoul",
+      "timezones": [
+        "UTC+09:00"
+      ],
+      "aliases": [
+        "korea",
+        "south korea"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇰🇷",
+        "capital": "Seoul",
+        "continent": "Asia",
+        "population": "51,159,889 人",
+        "area": "100,210 km²",
+        "majorCities": [
+          "首尔",
+          "釜山",
+          "仁川"
+        ],
+        "languages": [
+          "Korean"
+        ],
+        "currencyName": "South Korean won",
+        "currencyCode": "KRW",
+        "dialingCode": "+82",
+        "drivingSide": "右侧通行",
+        "dateFormat": "YYYY.MM.DD",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 60Hz，C/F 插头",
+        "domainSuffix": ".kr / .한국",
+        "religion": "基督教、佛教、无宗教",
+        "isoCode": "KR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TW",
+      "nameZh": "中国台湾",
+      "nameEn": "Taiwan",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Taipei",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "taiwan"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇹🇼",
+        "capital": "Taipei",
+        "continent": "Asia",
+        "population": "23,317,031 人",
+        "area": "36,197 km²",
+        "majorCities": [],
+        "languages": [
+          "Chinese"
+        ],
+        "currencyName": "New Taiwan dollar",
+        "currencyCode": "TWD",
+        "dialingCode": "+886",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".tw / .台灣 / .台湾",
+        "religion": "待补充",
+        "isoCode": "TW"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "HK",
+      "nameZh": "中国香港",
+      "nameEn": "Hong Kong",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Hong_Kong",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "hong kong",
+        "hk"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇭🇰",
+        "capital": "City of Victoria",
+        "continent": "Asia",
+        "population": "7,527,500 人",
+        "area": "1,104 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Chinese"
+        ],
+        "currencyName": "Hong Kong dollar",
+        "currencyCode": "HKD",
+        "dialingCode": "+852",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".hk / .香港",
+        "religion": "待补充",
+        "isoCode": "HK"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MN",
+      "nameZh": "蒙古",
+      "nameEn": "Mongolia",
+      "continent": "Asia",
+      "region": "East Asia",
+      "timezone": "Asia/Ulaanbaatar",
+      "timezones": [
+        "UTC+07:00",
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "mongolia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇲🇳",
+        "capital": "Ulan Bator",
+        "continent": "Asia",
+        "population": "3,544,835 人",
+        "area": "1,564,110 km²",
+        "majorCities": [],
+        "languages": [
+          "Mongolian"
+        ],
+        "currencyName": "Mongolian tögrög",
+        "currencyCode": "MNT",
+        "dialingCode": "+976",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".mn",
+        "religion": "待补充",
+        "isoCode": "MN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IN",
+      "nameZh": "印度",
+      "nameEn": "India",
+      "continent": "Asia",
+      "region": "South Asia",
+      "timezone": "Asia/Kolkata",
+      "timezones": [
+        "UTC+05:30"
+      ],
+      "aliases": [
+        "india"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:30",
+        "end": "18:30"
+      },
+      "meta": {
+        "flag": "🇮🇳",
+        "capital": "New Delhi",
+        "continent": "Asia",
+        "population": "1,417,492,000 人",
+        "area": "3,287,263 km²",
+        "majorCities": [
+          "孟买",
+          "德里",
+          "班加罗尔"
+        ],
+        "languages": [
+          "English",
+          "Hindi",
+          "Tamil"
+        ],
+        "currencyName": "Indian rupee",
+        "currencyCode": "INR",
+        "dialingCode": "+91",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD-MM-YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/D/M 插头",
+        "domainSuffix": ".in",
+        "religion": "印度教、伊斯兰教",
+        "isoCode": "IN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PK",
+      "nameZh": "巴基斯坦",
+      "nameEn": "Pakistan",
+      "continent": "Asia",
+      "region": "South Asia",
+      "timezone": "Asia/Karachi",
+      "timezones": [
+        "UTC+05:00"
+      ],
+      "aliases": [
+        "pakistan"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇵🇰",
+        "capital": "Islamabad",
+        "continent": "Asia",
+        "population": "241,499,431 人",
+        "area": "796,095 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Urdu"
+        ],
+        "currencyName": "Pakistani rupee",
+        "currencyCode": "PKR",
+        "dialingCode": "+92",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".pk",
+        "religion": "待补充",
+        "isoCode": "PK"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BD",
+      "nameZh": "孟加拉国",
+      "nameEn": "Bangladesh",
+      "continent": "Asia",
+      "region": "South Asia",
+      "timezone": "Asia/Dhaka",
+      "timezones": [
+        "UTC+06:00"
+      ],
+      "aliases": [
+        "bangladesh"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "10:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇧🇩",
+        "capital": "Dhaka",
+        "continent": "Asia",
+        "population": "169,828,911 人",
+        "area": "147,570 km²",
+        "majorCities": [],
+        "languages": [
+          "Bengali"
+        ],
+        "currencyName": "Bangladeshi taka",
+        "currencyCode": "BDT",
+        "dialingCode": "+880",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".bd",
+        "religion": "待补充",
+        "isoCode": "BD"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "LK",
+      "nameZh": "斯里兰卡",
+      "nameEn": "Sri Lanka",
+      "continent": "Asia",
+      "region": "South Asia",
+      "timezone": "Asia/Colombo",
+      "timezones": [
+        "UTC+05:30"
+      ],
+      "aliases": [
+        "sri lanka"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇱🇰",
+        "capital": "Sri Jayawardenepura Kotte",
+        "continent": "Asia",
+        "population": "21,763,170 人",
+        "area": "65,610 km²",
+        "majorCities": [],
+        "languages": [
+          "Sinhala",
+          "Tamil"
+        ],
+        "currencyName": "Sri Lankan rupee",
+        "currencyCode": "LKR",
+        "dialingCode": "+94",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".lk / .இலங்கை / .ලංකා",
+        "religion": "待补充",
+        "isoCode": "LK"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NP",
+      "nameZh": "尼泊尔",
+      "nameEn": "Nepal",
+      "continent": "Asia",
+      "region": "South Asia",
+      "timezone": "Asia/Kathmandu",
+      "timezones": [
+        "UTC+05:45"
+      ],
+      "aliases": [
+        "nepal"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "10:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇳🇵",
+        "capital": "Kathmandu",
+        "continent": "Asia",
+        "population": "29,911,840 人",
+        "area": "147,181 km²",
+        "majorCities": [],
+        "languages": [
+          "Nepali"
+        ],
+        "currencyName": "Nepalese rupee",
+        "currencyCode": "NPR",
+        "dialingCode": "+977",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".np",
+        "religion": "待补充",
+        "isoCode": "NP"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "VN",
+      "nameZh": "越南",
+      "nameEn": "Vietnam",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "timezones": [
+        "UTC+07:00"
+      ],
+      "aliases": [
+        "vietnam"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇻🇳",
+        "capital": "Hanoi",
+        "continent": "Asia",
+        "population": "101,343,800 人",
+        "area": "331,212 km²",
+        "majorCities": [
+          "胡志明市",
+          "河内",
+          "岘港"
+        ],
+        "languages": [
+          "Vietnamese"
+        ],
+        "currencyName": "Vietnamese đồng",
+        "currencyCode": "VND",
+        "dialingCode": "+84",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 50Hz，A/C/F 插头",
+        "domainSuffix": ".vn",
+        "religion": "佛教、民间信仰",
+        "isoCode": "VN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TH",
+      "nameZh": "泰国",
+      "nameEn": "Thailand",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Bangkok",
+      "timezones": [
+        "UTC+07:00"
+      ],
+      "aliases": [
+        "thailand"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇹🇭",
+        "capital": "Bangkok",
+        "continent": "Asia",
+        "population": "65,859,640 人",
+        "area": "513,120 km²",
+        "majorCities": [
+          "曼谷",
+          "清迈",
+          "芭堤雅"
+        ],
+        "languages": [
+          "Thai"
+        ],
+        "currencyName": "Thai baht",
+        "currencyCode": "THB",
+        "dialingCode": "+66",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，A/B/C/O 插头",
+        "domainSuffix": ".th / .ไทย",
+        "religion": "佛教",
+        "isoCode": "TH"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ID",
+      "nameZh": "印度尼西亚",
+      "nameEn": "Indonesia",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Jakarta",
+      "timezones": [
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:00"
+      ],
+      "aliases": [
+        "indonesia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇮🇩",
+        "capital": "Jakarta",
+        "continent": "Asia",
+        "population": "284,438,782 人",
+        "area": "1,904,569 km²",
+        "majorCities": [
+          "雅加达",
+          "泗水",
+          "万隆"
+        ],
+        "languages": [
+          "Indonesian"
+        ],
+        "currencyName": "Indonesian rupiah",
+        "currencyCode": "IDR",
+        "dialingCode": "+62",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F 插头",
+        "domainSuffix": ".id",
+        "religion": "伊斯兰教",
+        "isoCode": "ID"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MY",
+      "nameZh": "马来西亚",
+      "nameEn": "Malaysia",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Kuala_Lumpur",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "malaysia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇲🇾",
+        "capital": "Kuala Lumpur",
+        "continent": "Asia",
+        "population": "34,231,700 人",
+        "area": "330,803 km²",
+        "majorCities": [
+          "吉隆坡",
+          "新山",
+          "槟城"
+        ],
+        "languages": [
+          "English",
+          "Malay"
+        ],
+        "currencyName": "Malaysian ringgit",
+        "currencyCode": "MYR",
+        "dialingCode": "+60",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "240V / 50Hz，G 插头",
+        "domainSuffix": ".my",
+        "religion": "伊斯兰教",
+        "isoCode": "MY"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PH",
+      "nameZh": "菲律宾",
+      "nameEn": "Philippines",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Manila",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "philippines"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇵🇭",
+        "capital": "Manila",
+        "continent": "Asia",
+        "population": "114,123,600 人",
+        "area": "342,353 km²",
+        "majorCities": [
+          "马尼拉",
+          "宿务",
+          "达沃"
+        ],
+        "languages": [
+          "English",
+          "Filipino"
+        ],
+        "currencyName": "Philippine peso",
+        "currencyCode": "PHP",
+        "dialingCode": "+63",
+        "drivingSide": "右侧通行",
+        "dateFormat": "MM/DD/YYYY",
+        "measurementStyle": "公制为主，部分美式习惯",
+        "powerStandard": "220V / 60Hz，A/B/C 插头",
+        "domainSuffix": ".ph",
+        "religion": "天主教",
+        "isoCode": "PH"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SG",
+      "nameZh": "新加坡",
+      "nameEn": "Singapore",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Singapore",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "singapore"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇸🇬",
+        "capital": "Singapore",
+        "continent": "Asia",
+        "population": "6,110,200 人",
+        "area": "710 km²",
+        "majorCities": [
+          "新加坡"
+        ],
+        "languages": [
+          "English",
+          "Chinese",
+          "Malay",
+          "Tamil"
+        ],
+        "currencyName": "Singapore dollar",
+        "currencyCode": "SGD",
+        "dialingCode": "+65",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，G 插头",
+        "domainSuffix": ".sg / .新加坡 / .சிங்கப்பூர்",
+        "religion": "佛教、基督教、伊斯兰教",
+        "isoCode": "SG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "KH",
+      "nameZh": "柬埔寨",
+      "nameEn": "Cambodia",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Phnom_Penh",
+      "timezones": [
+        "UTC+07:00"
+      ],
+      "aliases": [
+        "cambodia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇰🇭",
+        "capital": "Phnom Penh",
+        "continent": "Asia",
+        "population": "17,577,760 人",
+        "area": "181,035 km²",
+        "majorCities": [],
+        "languages": [
+          "Khmer"
+        ],
+        "currencyName": "Cambodian riel",
+        "currencyCode": "KHR",
+        "dialingCode": "+855",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".kh",
+        "religion": "待补充",
+        "isoCode": "KH"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "LA",
+      "nameZh": "老挝",
+      "nameEn": "Laos",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Vientiane",
+      "timezones": [
+        "UTC+07:00"
+      ],
+      "aliases": [
+        "laos"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇱🇦",
+        "capital": "Vientiane",
+        "continent": "Asia",
+        "population": "7,647,000 人",
+        "area": "236,800 km²",
+        "majorCities": [],
+        "languages": [
+          "Lao"
+        ],
+        "currencyName": "Lao kip",
+        "currencyCode": "LAK",
+        "dialingCode": "+856",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".la",
+        "religion": "待补充",
+        "isoCode": "LA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MM",
+      "nameZh": "缅甸",
+      "nameEn": "Myanmar",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Yangon",
+      "timezones": [
+        "UTC+06:30"
+      ],
+      "aliases": [
+        "myanmar",
+        "burma"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇲🇲",
+        "capital": "Naypyidaw",
+        "continent": "Asia",
+        "population": "51,316,756 人",
+        "area": "676,578 km²",
+        "majorCities": [],
+        "languages": [
+          "Burmese"
+        ],
+        "currencyName": "Burmese kyat",
+        "currencyCode": "MMK",
+        "dialingCode": "+95",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".mm",
+        "religion": "待补充",
+        "isoCode": "MM"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BN",
+      "nameZh": "文莱",
+      "nameEn": "Brunei",
+      "continent": "Asia",
+      "region": "Southeast Asia",
+      "timezone": "Asia/Brunei",
+      "timezones": [
+        "UTC+08:00"
+      ],
+      "aliases": [
+        "brunei"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇧🇳",
+        "capital": "Bandar Seri Begawan",
+        "continent": "Asia",
+        "population": "455,500 人",
+        "area": "5,765 km²",
+        "majorCities": [],
+        "languages": [
+          "Malay"
+        ],
+        "currencyName": "Brunei dollar",
+        "currencyCode": "BND",
+        "dialingCode": "+673",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".bn",
+        "religion": "待补充",
+        "isoCode": "BN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "AE",
+      "nameZh": "阿联酋",
+      "nameEn": "United Arab Emirates",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Dubai",
+      "timezones": [
+        "UTC+04:00"
+      ],
+      "aliases": [
+        "uae",
+        "dubai"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇦🇪",
+        "capital": "Abu Dhabi",
+        "continent": "Asia",
+        "population": "11,294,243 人",
+        "area": "83,600 km²",
+        "majorCities": [
+          "迪拜",
+          "阿布扎比",
+          "沙迦"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "United Arab Emirates dirham",
+        "currencyCode": "AED",
+        "dialingCode": "+971",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，G 插头",
+        "domainSuffix": ".ae / امارات.",
+        "religion": "伊斯兰教",
+        "isoCode": "AE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SA",
+      "nameZh": "沙特阿拉伯",
+      "nameEn": "Saudi Arabia",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Riyadh",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "saudi",
+        "ksa"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇸🇦",
+        "capital": "Riyadh",
+        "continent": "Asia",
+        "population": "35,300,280 人",
+        "area": "2,149,690 km²",
+        "majorCities": [
+          "利雅得",
+          "吉达",
+          "达曼"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Saudi riyal",
+        "currencyCode": "SAR",
+        "dialingCode": "+966",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 60Hz，G 插头",
+        "domainSuffix": ".sa / .السعودية",
+        "religion": "伊斯兰教",
+        "isoCode": "SA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TR",
+      "nameZh": "土耳其",
+      "nameEn": "Turkey",
+      "continent": "Asia",
+      "region": "West Asia",
+      "timezone": "Europe/Istanbul",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "turkey"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇹🇷",
+        "capital": "Ankara",
+        "continent": "Asia",
+        "population": "85,664,944 人",
+        "area": "783,562 km²",
+        "majorCities": [
+          "伊斯坦布尔",
+          "安卡拉",
+          "伊兹密尔"
+        ],
+        "languages": [
+          "Turkish"
+        ],
+        "currencyName": "Turkish lira",
+        "currencyCode": "TRY",
+        "dialingCode": "+90",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD.MM.YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F 插头",
+        "domainSuffix": ".tr",
+        "religion": "伊斯兰教",
+        "isoCode": "TR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IL",
+      "nameZh": "以色列",
+      "nameEn": "Israel",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Jerusalem",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "israel"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇮🇱",
+        "capital": "Jerusalem",
+        "continent": "Asia",
+        "population": "10,134,800 人",
+        "area": "21,937 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic",
+          "Hebrew"
+        ],
+        "currencyName": "Israeli new shekel",
+        "currencyCode": "ILS",
+        "dialingCode": "+972",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".il",
+        "religion": "待补充",
+        "isoCode": "IL"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "JO",
+      "nameZh": "约旦",
+      "nameEn": "Jordan",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Amman",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "jordan"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇯🇴",
+        "capital": "Amman",
+        "continent": "Asia",
+        "population": "11,734,000 人",
+        "area": "89,342 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Jordanian dinar",
+        "currencyCode": "JOD",
+        "dialingCode": "+962",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".jo / الاردن.",
+        "religion": "待补充",
+        "isoCode": "JO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IQ",
+      "nameZh": "伊拉克",
+      "nameEn": "Iraq",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Baghdad",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "iraq"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "meta": {
+        "flag": "🇮🇶",
+        "capital": "Baghdad",
+        "continent": "Asia",
+        "population": "46,118,793 人",
+        "area": "438,317 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic",
+          "Aramaic",
+          "Sorani"
+        ],
+        "currencyName": "Iraqi dinar",
+        "currencyCode": "IQD",
+        "dialingCode": "+964",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".iq",
+        "religion": "待补充",
+        "isoCode": "IQ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IR",
+      "nameZh": "伊朗",
+      "nameEn": "Iran",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Tehran",
+      "timezones": [
+        "UTC+03:30"
+      ],
+      "aliases": [
+        "iran"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "meta": {
+        "flag": "🇮🇷",
+        "capital": "Tehran",
+        "continent": "Asia",
+        "population": "85,961,000 人",
+        "area": "1,648,195 km²",
+        "majorCities": [],
+        "languages": [
+          "Persian (Farsi)"
+        ],
+        "currencyName": "Iranian rial",
+        "currencyCode": "IRR",
+        "dialingCode": "+98",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ir / ایران.",
+        "religion": "待补充",
+        "isoCode": "IR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "QA",
+      "nameZh": "卡塔尔",
+      "nameEn": "Qatar",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Qatar",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "qatar"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "meta": {
+        "flag": "🇶🇦",
+        "capital": "Doha",
+        "continent": "Asia",
+        "population": "3,173,024 人",
+        "area": "11,586 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Qatari riyal",
+        "currencyCode": "QAR",
+        "dialingCode": "+974",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".qa / قطر.",
+        "religion": "待补充",
+        "isoCode": "QA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "KW",
+      "nameZh": "科威特",
+      "nameEn": "Kuwait",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Kuwait",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "kuwait"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "meta": {
+        "flag": "🇰🇼",
+        "capital": "Kuwait City",
+        "continent": "Asia",
+        "population": "4,881,254 人",
+        "area": "17,818 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Kuwaiti dinar",
+        "currencyCode": "KWD",
+        "dialingCode": "+965",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".kw",
+        "religion": "待补充",
+        "isoCode": "KW"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "OM",
+      "nameZh": "阿曼",
+      "nameEn": "Oman",
+      "continent": "Asia",
+      "region": "Middle East",
+      "timezone": "Asia/Muscat",
+      "timezones": [
+        "UTC+04:00"
+      ],
+      "aliases": [
+        "oman"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇴🇲",
+        "capital": "Muscat",
+        "continent": "Asia",
+        "population": "5,343,630 人",
+        "area": "309,500 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Omani rial",
+        "currencyCode": "OMR",
+        "dialingCode": "+968",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".om",
+        "religion": "待补充",
+        "isoCode": "OM"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "KZ",
+      "nameZh": "哈萨克斯坦",
+      "nameEn": "Kazakhstan",
+      "continent": "Asia",
+      "region": "Central Asia",
+      "timezone": "Asia/Almaty",
+      "timezones": [
+        "UTC+05:00",
+        "UTC+06:00"
+      ],
+      "aliases": [
+        "kazakhstan"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇰🇿",
+        "capital": "Astana",
+        "continent": "Asia",
+        "population": "20,426,568 人",
+        "area": "2,724,900 km²",
+        "majorCities": [],
+        "languages": [
+          "Kazakh",
+          "Russian"
+        ],
+        "currencyName": "Kazakhstani tenge",
+        "currencyCode": "KZT",
+        "dialingCode": "+76 / +77",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".kz / .қаз",
+        "religion": "待补充",
+        "isoCode": "KZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "UZ",
+      "nameZh": "乌兹别克斯坦",
+      "nameEn": "Uzbekistan",
+      "continent": "Asia",
+      "region": "Central Asia",
+      "timezone": "Asia/Tashkent",
+      "timezones": [
+        "UTC+05:00"
+      ],
+      "aliases": [
+        "uzbekistan"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇺🇿",
+        "capital": "Tashkent",
+        "continent": "Asia",
+        "population": "37,859,698 人",
+        "area": "447,400 km²",
+        "majorCities": [],
+        "languages": [
+          "Russian",
+          "Uzbek"
+        ],
+        "currencyName": "Uzbekistani soʻm",
+        "currencyCode": "UZS",
+        "dialingCode": "+998",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".uz",
+        "religion": "待补充",
+        "isoCode": "UZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "GB",
+      "nameZh": "英国",
+      "nameEn": "United Kingdom",
+      "continent": "Europe",
+      "region": "Western Europe",
+      "timezone": "Europe/London",
+      "timezones": [
+        "UTC-08:00",
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-02:00",
+        "UTC",
+        "UTC+01:00",
+        "UTC+02:00",
+        "UTC+06:00"
+      ],
+      "aliases": [
+        "uk",
+        "britain",
+        "england"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇬🇧",
+        "capital": "London",
+        "continent": "Europe",
+        "population": "69,281,437 人",
+        "area": "244,376 km²",
+        "majorCities": [
+          "伦敦",
+          "曼彻斯特",
+          "伯明翰"
+        ],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "British pound",
+        "currencyCode": "GBP",
+        "dialingCode": "+44",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "英制与公制并存",
+        "powerStandard": "230V / 50Hz，G 插头",
+        "domainSuffix": ".uk",
+        "religion": "基督教、无宗教",
+        "isoCode": "GB"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "DE",
+      "nameZh": "德国",
+      "nameEn": "Germany",
+      "continent": "Europe",
+      "region": "Western Europe",
+      "timezone": "Europe/Berlin",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "germany"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇩🇪",
+        "capital": "Berlin",
+        "continent": "Europe",
+        "population": "83,491,249 人",
+        "area": "357,114 km²",
+        "majorCities": [
+          "柏林",
+          "汉堡",
+          "慕尼黑"
+        ],
+        "languages": [
+          "German"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+49",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD.MM.YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F 插头",
+        "domainSuffix": ".de",
+        "religion": "基督教、无宗教",
+        "isoCode": "DE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "FR",
+      "nameZh": "法国",
+      "nameEn": "France",
+      "continent": "Europe",
+      "region": "Western Europe",
+      "timezone": "Europe/Paris",
+      "timezones": [
+        "UTC-10:00",
+        "UTC-09:30",
+        "UTC-09:00",
+        "UTC-08:00",
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC+01:00",
+        "UTC+02:00",
+        "UTC+03:00",
+        "UTC+04:00",
+        "UTC+05:00",
+        "UTC+10:00",
+        "UTC+11:00",
+        "UTC+12:00"
+      ],
+      "aliases": [
+        "france"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00",
+        "lunch": [
+          "12:30",
+          "13:30"
+        ]
+      },
+      "meta": {
+        "flag": "🇫🇷",
+        "capital": "Paris",
+        "continent": "Europe",
+        "population": "66,351,959 人",
+        "area": "543,908 km²",
+        "majorCities": [
+          "巴黎",
+          "里昂",
+          "马赛"
+        ],
+        "languages": [
+          "French"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+33",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/E 插头",
+        "domainSuffix": ".fr",
+        "religion": "基督教、伊斯兰教、无宗教",
+        "isoCode": "FR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IT",
+      "nameZh": "意大利",
+      "nameEn": "Italy",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Rome",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "italy"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00",
+        "lunch": [
+          "13:00",
+          "14:00"
+        ]
+      },
+      "meta": {
+        "flag": "🇮🇹",
+        "capital": "Rome",
+        "continent": "Europe",
+        "population": "58,927,633 人",
+        "area": "301,336 km²",
+        "majorCities": [
+          "罗马",
+          "米兰",
+          "都灵"
+        ],
+        "languages": [
+          "Italian",
+          "Catalan"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+39",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F/L 插头",
+        "domainSuffix": ".it",
+        "religion": "天主教",
+        "isoCode": "IT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ES",
+      "nameZh": "西班牙",
+      "nameEn": "Spain",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Madrid",
+      "timezones": [
+        "UTC",
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "spain"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:30",
+        "lunch": [
+          "14:00",
+          "15:30"
+        ]
+      },
+      "meta": {
+        "flag": "🇪🇸",
+        "capital": "Madrid",
+        "continent": "Europe",
+        "population": "49,315,949 人",
+        "area": "505,992 km²",
+        "majorCities": [
+          "马德里",
+          "巴塞罗那",
+          "瓦伦西亚"
+        ],
+        "languages": [
+          "Spanish",
+          "Catalan",
+          "Basque",
+          "Galician"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+34",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F 插头",
+        "domainSuffix": ".es",
+        "religion": "天主教、无宗教",
+        "isoCode": "ES"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NL",
+      "nameZh": "荷兰",
+      "nameEn": "Netherlands",
+      "continent": "Europe",
+      "region": "Western Europe",
+      "timezone": "Europe/Amsterdam",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "netherlands",
+        "holland"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇳🇱",
+        "capital": "Amsterdam",
+        "continent": "Europe",
+        "population": "18,100,436 人",
+        "area": "41,865 km²",
+        "majorCities": [
+          "阿姆斯特丹",
+          "鹿特丹",
+          "海牙"
+        ],
+        "languages": [
+          "Dutch"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+31",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD-MM-YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/F 插头",
+        "domainSuffix": ".nl",
+        "religion": "基督教、无宗教",
+        "isoCode": "NL"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BE",
+      "nameZh": "比利时",
+      "nameEn": "Belgium",
+      "continent": "Europe",
+      "region": "Western Europe",
+      "timezone": "Europe/Brussels",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "belgium"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇧🇪",
+        "capital": "Brussels",
+        "continent": "Europe",
+        "population": "11,825,551 人",
+        "area": "30,528 km²",
+        "majorCities": [],
+        "languages": [
+          "German",
+          "French",
+          "Dutch"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+32",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".be",
+        "religion": "待补充",
+        "isoCode": "BE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PL",
+      "nameZh": "波兰",
+      "nameEn": "Poland",
+      "continent": "Europe",
+      "region": "Central Europe",
+      "timezone": "Europe/Warsaw",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "poland"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇵🇱",
+        "capital": "Warsaw",
+        "continent": "Europe",
+        "population": "37,392,000 人",
+        "area": "312,679 km²",
+        "majorCities": [],
+        "languages": [
+          "Polish"
+        ],
+        "currencyName": "Polish złoty",
+        "currencyCode": "PLN",
+        "dialingCode": "+48",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".pl",
+        "religion": "待补充",
+        "isoCode": "PL"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CZ",
+      "nameZh": "捷克",
+      "nameEn": "Czechia",
+      "continent": "Europe",
+      "region": "Central Europe",
+      "timezone": "Europe/Prague",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "czech",
+        "czech republic"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇨🇿",
+        "capital": "Prague",
+        "continent": "Europe",
+        "population": "10,882,341 人",
+        "area": "78,865 km²",
+        "majorCities": [],
+        "languages": [
+          "Czech",
+          "Slovak"
+        ],
+        "currencyName": "Czech koruna",
+        "currencyCode": "CZK",
+        "dialingCode": "+420",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".cz",
+        "religion": "待补充",
+        "isoCode": "CZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "AT",
+      "nameZh": "奥地利",
+      "nameEn": "Austria",
+      "continent": "Europe",
+      "region": "Central Europe",
+      "timezone": "Europe/Vienna",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "austria"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇦🇹",
+        "capital": "Vienna",
+        "continent": "Europe",
+        "population": "9,200,931 人",
+        "area": "83,871 km²",
+        "majorCities": [],
+        "languages": [
+          "German"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+43",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".at",
+        "religion": "待补充",
+        "isoCode": "AT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CH",
+      "nameZh": "瑞士",
+      "nameEn": "Switzerland",
+      "continent": "Europe",
+      "region": "Central Europe",
+      "timezone": "Europe/Zurich",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "switzerland"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇨🇭",
+        "capital": "Bern",
+        "continent": "Europe",
+        "population": "9,082,848 人",
+        "area": "41,284 km²",
+        "majorCities": [],
+        "languages": [
+          "French",
+          "Swiss German",
+          "Italian",
+          "Romansh"
+        ],
+        "currencyName": "Swiss franc",
+        "currencyCode": "CHF",
+        "dialingCode": "+41",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ch",
+        "religion": "待补充",
+        "isoCode": "CH"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SE",
+      "nameZh": "瑞典",
+      "nameEn": "Sweden",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Stockholm",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "sweden"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇸🇪",
+        "capital": "Stockholm",
+        "continent": "Europe",
+        "population": "10,605,098 人",
+        "area": "450,295 km²",
+        "majorCities": [],
+        "languages": [
+          "Swedish"
+        ],
+        "currencyName": "Swedish krona",
+        "currencyCode": "SEK",
+        "dialingCode": "+46",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".se",
+        "religion": "待补充",
+        "isoCode": "SE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NO",
+      "nameZh": "挪威",
+      "nameEn": "Norway",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Oslo",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "norway"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:00"
+      },
+      "meta": {
+        "flag": "🇳🇴",
+        "capital": "Oslo",
+        "continent": "Europe",
+        "population": "5,606,944 人",
+        "area": "386,224 km²",
+        "majorCities": [],
+        "languages": [
+          "Norwegian Nynorsk",
+          "Norwegian Bokmål",
+          "Sami"
+        ],
+        "currencyName": "Norwegian krone",
+        "currencyCode": "NOK",
+        "dialingCode": "+47",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".no",
+        "religion": "待补充",
+        "isoCode": "NO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "DK",
+      "nameZh": "丹麦",
+      "nameEn": "Denmark",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Copenhagen",
+      "timezones": [
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-01:00",
+        "UTC",
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "denmark"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇩🇰",
+        "capital": "Copenhagen",
+        "continent": "Europe",
+        "population": "6,011,488 人",
+        "area": "43,094 km²",
+        "majorCities": [],
+        "languages": [
+          "Danish"
+        ],
+        "currencyName": "Danish krone",
+        "currencyCode": "DKK",
+        "dialingCode": "+45",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".dk",
+        "religion": "待补充",
+        "isoCode": "DK"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "FI",
+      "nameZh": "芬兰",
+      "nameEn": "Finland",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Helsinki",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "finland"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇫🇮",
+        "capital": "Helsinki",
+        "continent": "Europe",
+        "population": "5,650,325 人",
+        "area": "338,455 km²",
+        "majorCities": [],
+        "languages": [
+          "Finnish",
+          "Swedish"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+358",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".fi",
+        "religion": "待补充",
+        "isoCode": "FI"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PT",
+      "nameZh": "葡萄牙",
+      "nameEn": "Portugal",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Lisbon",
+      "timezones": [
+        "UTC-01:00",
+        "UTC"
+      ],
+      "aliases": [
+        "portugal"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇵🇹",
+        "capital": "Lisbon",
+        "continent": "Europe",
+        "population": "10,749,635 人",
+        "area": "92,090 km²",
+        "majorCities": [],
+        "languages": [
+          "Portuguese"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+351",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".pt",
+        "religion": "待补充",
+        "isoCode": "PT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "IE",
+      "nameZh": "爱尔兰",
+      "nameEn": "Ireland",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Dublin",
+      "timezones": [
+        "UTC"
+      ],
+      "aliases": [
+        "ireland"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇮🇪",
+        "capital": "Dublin",
+        "continent": "Europe",
+        "population": "5,458,600 人",
+        "area": "70,273 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Irish"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+353",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ie",
+        "religion": "待补充",
+        "isoCode": "IE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "GR",
+      "nameZh": "希腊",
+      "nameEn": "Greece",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Athens",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "greece"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇬🇷",
+        "capital": "Athens",
+        "continent": "Europe",
+        "population": "10,400,720 人",
+        "area": "131,990 km²",
+        "majorCities": [],
+        "languages": [
+          "Greek"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+30",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".gr",
+        "religion": "待补充",
+        "isoCode": "GR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "HU",
+      "nameZh": "匈牙利",
+      "nameEn": "Hungary",
+      "continent": "Europe",
+      "region": "Central Europe",
+      "timezone": "Europe/Budapest",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "hungary"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇭🇺",
+        "capital": "Budapest",
+        "continent": "Europe",
+        "population": "9,539,502 人",
+        "area": "93,028 km²",
+        "majorCities": [],
+        "languages": [
+          "Hungarian"
+        ],
+        "currencyName": "Hungarian forint",
+        "currencyCode": "HUF",
+        "dialingCode": "+36",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".hu",
+        "religion": "待补充",
+        "isoCode": "HU"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "RO",
+      "nameZh": "罗马尼亚",
+      "nameEn": "Romania",
+      "continent": "Europe",
+      "region": "Eastern Europe",
+      "timezone": "Europe/Bucharest",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "romania"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇷🇴",
+        "capital": "Bucharest",
+        "continent": "Europe",
+        "population": "19,036,031 人",
+        "area": "238,391 km²",
+        "majorCities": [],
+        "languages": [
+          "Romanian"
+        ],
+        "currencyName": "Romanian leu",
+        "currencyCode": "RON",
+        "dialingCode": "+40",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ro",
+        "religion": "待补充",
+        "isoCode": "RO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BG",
+      "nameZh": "保加利亚",
+      "nameEn": "Bulgaria",
+      "continent": "Europe",
+      "region": "Eastern Europe",
+      "timezone": "Europe/Sofia",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "bulgaria"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇧🇬",
+        "capital": "Sofia",
+        "continent": "Europe",
+        "population": "6,437,360 人",
+        "area": "110,879 km²",
+        "majorCities": [],
+        "languages": [
+          "Bulgarian"
+        ],
+        "currencyName": "Bulgarian lev",
+        "currencyCode": "BGN",
+        "dialingCode": "+359",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".bg",
+        "religion": "待补充",
+        "isoCode": "BG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "RS",
+      "nameZh": "塞尔维亚",
+      "nameEn": "Serbia",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Belgrade",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "serbia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇷🇸",
+        "capital": "Belgrade",
+        "continent": "Europe",
+        "population": "6,567,783 人",
+        "area": "77,589 km²",
+        "majorCities": [],
+        "languages": [
+          "Serbian"
+        ],
+        "currencyName": "Serbian dinar",
+        "currencyCode": "RSD",
+        "dialingCode": "+381",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".rs / .срб",
+        "religion": "待补充",
+        "isoCode": "RS"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "HR",
+      "nameZh": "克罗地亚",
+      "nameEn": "Croatia",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Zagreb",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "croatia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇭🇷",
+        "capital": "Zagreb",
+        "continent": "Europe",
+        "population": "3,866,233 人",
+        "area": "56,594 km²",
+        "majorCities": [],
+        "languages": [
+          "Croatian"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+385",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".hr",
+        "religion": "待补充",
+        "isoCode": "HR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SI",
+      "nameZh": "斯洛文尼亚",
+      "nameEn": "Slovenia",
+      "continent": "Europe",
+      "region": "Southern Europe",
+      "timezone": "Europe/Ljubljana",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "slovenia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇸🇮",
+        "capital": "Ljubljana",
+        "continent": "Europe",
+        "population": "2,130,638 人",
+        "area": "20,273 km²",
+        "majorCities": [],
+        "languages": [
+          "Slovene"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+386",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".si",
+        "religion": "待补充",
+        "isoCode": "SI"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "UA",
+      "nameZh": "乌克兰",
+      "nameEn": "Ukraine",
+      "continent": "Europe",
+      "region": "Eastern Europe",
+      "timezone": "Europe/Kyiv",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "ukraine"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇺🇦",
+        "capital": "Kyiv",
+        "continent": "Europe",
+        "population": "32,862,000 人",
+        "area": "603,550 km²",
+        "majorCities": [],
+        "languages": [
+          "Ukrainian"
+        ],
+        "currencyName": "Ukrainian hryvnia",
+        "currencyCode": "UAH",
+        "dialingCode": "+380",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ua / .укр",
+        "religion": "待补充",
+        "isoCode": "UA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "LT",
+      "nameZh": "立陶宛",
+      "nameEn": "Lithuania",
+      "continent": "Europe",
+      "region": "Northern Europe",
+      "timezone": "Europe/Vilnius",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "lithuania"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇱🇹",
+        "capital": "Vilnius",
+        "continent": "Europe",
+        "population": "2,894,886 人",
+        "area": "65,300 km²",
+        "majorCities": [],
+        "languages": [
+          "Lithuanian"
+        ],
+        "currencyName": "euro",
+        "currencyCode": "EUR",
+        "dialingCode": "+370",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".lt",
+        "religion": "待补充",
+        "isoCode": "LT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "US",
+      "nameZh": "美国",
+      "nameEn": "United States",
+      "continent": "North America",
+      "region": "North America",
+      "timezone": "America/New_York",
+      "timezones": [
+        "UTC-12:00",
+        "UTC-11:00",
+        "UTC-10:00",
+        "UTC-09:00",
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00",
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC+10:00",
+        "UTC+12:00"
+      ],
+      "aliases": [
+        "usa",
+        "us",
+        "america"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇺🇸",
+        "capital": "Washington, D.C.",
+        "continent": "North America",
+        "population": "340,110,988 人",
+        "area": "9,525,067 km²",
+        "majorCities": [
+          "纽约",
+          "洛杉矶",
+          "芝加哥"
+        ],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "United States dollar",
+        "currencyCode": "USD",
+        "dialingCode": "+1201 / +1202 / +1203",
+        "drivingSide": "右侧通行",
+        "dateFormat": "MM/DD/YYYY",
+        "measurementStyle": "英制为主，温度常用华氏度",
+        "powerStandard": "120V / 60Hz，A/B 插头",
+        "domainSuffix": ".us",
+        "religion": "基督教、无宗教",
+        "isoCode": "US"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CA",
+      "nameZh": "加拿大",
+      "nameEn": "Canada",
+      "continent": "North America",
+      "region": "North America",
+      "timezone": "America/Toronto",
+      "timezones": [
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00",
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC-03:30"
+      ],
+      "aliases": [
+        "canada"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇨🇦",
+        "capital": "Ottawa",
+        "continent": "North America",
+        "population": "41,651,653 人",
+        "area": "9,984,670 km²",
+        "majorCities": [
+          "多伦多",
+          "温哥华",
+          "蒙特利尔"
+        ],
+        "languages": [
+          "English",
+          "French"
+        ],
+        "currencyName": "Canadian dollar",
+        "currencyCode": "CAD",
+        "dialingCode": "+1",
+        "drivingSide": "右侧通行",
+        "dateFormat": "YYYY-MM-DD / DD/MM/YYYY",
+        "measurementStyle": "公制为主，部分英制习惯",
+        "powerStandard": "120V / 60Hz，A/B 插头",
+        "domainSuffix": ".ca",
+        "religion": "基督教、无宗教",
+        "isoCode": "CA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MX",
+      "nameZh": "墨西哥",
+      "nameEn": "Mexico",
+      "continent": "North America",
+      "region": "North America",
+      "timezone": "America/Mexico_City",
+      "timezones": [
+        "UTC-08:00",
+        "UTC-07:00",
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "mexico"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇲🇽",
+        "capital": "Mexico City",
+        "continent": "North America",
+        "population": "130,575,786 人",
+        "area": "1,964,375 km²",
+        "majorCities": [
+          "墨西哥城",
+          "瓜达拉哈拉",
+          "蒙特雷"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Mexican peso",
+        "currencyCode": "MXN",
+        "dialingCode": "+52",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "127V / 60Hz，A/B 插头",
+        "domainSuffix": ".mx",
+        "religion": "天主教",
+        "isoCode": "MX"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "GT",
+      "nameZh": "危地马拉",
+      "nameEn": "Guatemala",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/Guatemala",
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "guatemala"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇬🇹",
+        "capital": "Guatemala City",
+        "continent": "North America",
+        "population": "18,079,810 人",
+        "area": "108,889 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Guatemalan quetzal",
+        "currencyCode": "GTQ",
+        "dialingCode": "+502",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".gt",
+        "religion": "待补充",
+        "isoCode": "GT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CR",
+      "nameZh": "哥斯达黎加",
+      "nameEn": "Costa Rica",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/Costa_Rica",
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "costa rica"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇨🇷",
+        "capital": "San José",
+        "continent": "North America",
+        "population": "5,309,625 人",
+        "area": "51,100 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Costa Rican colón",
+        "currencyCode": "CRC",
+        "dialingCode": "+506",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".cr",
+        "religion": "待补充",
+        "isoCode": "CR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PA",
+      "nameZh": "巴拿马",
+      "nameEn": "Panama",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/Panama",
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "panama"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇵🇦",
+        "capital": "Panama City",
+        "continent": "North America",
+        "population": "4,064,780 人",
+        "area": "75,417 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Panamanian balboa",
+        "currencyCode": "PAB",
+        "dialingCode": "+507",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".pa",
+        "religion": "待补充",
+        "isoCode": "PA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SV",
+      "nameZh": "萨尔瓦多",
+      "nameEn": "El Salvador",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/El_Salvador",
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "el salvador"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇸🇻",
+        "capital": "San Salvador",
+        "continent": "North America",
+        "population": "6,029,976 人",
+        "area": "21,041 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "United States dollar",
+        "currencyCode": "USD",
+        "dialingCode": "+503",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".sv",
+        "religion": "待补充",
+        "isoCode": "SV"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "HN",
+      "nameZh": "洪都拉斯",
+      "nameEn": "Honduras",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/Tegucigalpa",
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "honduras"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇭🇳",
+        "capital": "Tegucigalpa",
+        "continent": "North America",
+        "population": "9,892,632 人",
+        "area": "112,492 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Honduran lempira",
+        "currencyCode": "HNL",
+        "dialingCode": "+504",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".hn",
+        "religion": "待补充",
+        "isoCode": "HN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NI",
+      "nameZh": "尼加拉瓜",
+      "nameEn": "Nicaragua",
+      "continent": "North America",
+      "region": "Central America",
+      "timezone": "America/Managua",
+      "timezones": [
+        "UTC-06:00"
+      ],
+      "aliases": [
+        "nicaragua"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇳🇮",
+        "capital": "Managua",
+        "continent": "North America",
+        "population": "6,803,886 人",
+        "area": "130,373 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Nicaraguan córdoba",
+        "currencyCode": "NIO",
+        "dialingCode": "+505",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ni",
+        "religion": "待补充",
+        "isoCode": "NI"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CU",
+      "nameZh": "古巴",
+      "nameEn": "Cuba",
+      "continent": "North America",
+      "region": "Caribbean",
+      "timezone": "America/Havana",
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "cuba"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇨🇺",
+        "capital": "Havana",
+        "continent": "North America",
+        "population": "9,748,007 人",
+        "area": "109,884 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Cuban convertible peso",
+        "currencyCode": "CUC",
+        "dialingCode": "+53",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".cu",
+        "religion": "待补充",
+        "isoCode": "CU"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "DO",
+      "nameZh": "多米尼加",
+      "nameEn": "Dominican Republic",
+      "continent": "North America",
+      "region": "Caribbean",
+      "timezone": "America/Santo_Domingo",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "dominican republic"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇩🇴",
+        "capital": "Santo Domingo",
+        "continent": "North America",
+        "population": "10,771,504 人",
+        "area": "48,671 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Dominican peso",
+        "currencyCode": "DOP",
+        "dialingCode": "+1809 / +1829 / +1849",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".do",
+        "religion": "待补充",
+        "isoCode": "DO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "JM",
+      "nameZh": "牙买加",
+      "nameEn": "Jamaica",
+      "continent": "North America",
+      "region": "Caribbean",
+      "timezone": "America/Jamaica",
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "jamaica"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇯🇲",
+        "capital": "Kingston",
+        "continent": "North America",
+        "population": "2,825,544 人",
+        "area": "10,991 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Jamaican Patois"
+        ],
+        "currencyName": "Jamaican dollar",
+        "currencyCode": "JMD",
+        "dialingCode": "+1876 / +1658",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".jm",
+        "religion": "待补充",
+        "isoCode": "JM"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TT",
+      "nameZh": "特立尼达和多巴哥",
+      "nameEn": "Trinidad and Tobago",
+      "continent": "North America",
+      "region": "Caribbean",
+      "timezone": "America/Port_of_Spain",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "trinidad"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇹🇹",
+        "capital": "Port of Spain",
+        "continent": "North America",
+        "population": "1,367,764 人",
+        "area": "5,130 km²",
+        "majorCities": [],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Trinidad and Tobago dollar",
+        "currencyCode": "TTD",
+        "dialingCode": "+1868",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".tt",
+        "religion": "待补充",
+        "isoCode": "TT"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BR",
+      "nameZh": "巴西",
+      "nameEn": "Brazil",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Sao_Paulo",
+      "timezones": [
+        "UTC-05:00",
+        "UTC-04:00",
+        "UTC-03:00",
+        "UTC-02:00"
+      ],
+      "aliases": [
+        "brazil"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇧🇷",
+        "capital": "Brasília",
+        "continent": "South America",
+        "population": "213,421,037 人",
+        "area": "8,515,767 km²",
+        "majorCities": [
+          "圣保罗",
+          "里约热内卢",
+          "巴西利亚"
+        ],
+        "languages": [
+          "Portuguese"
+        ],
+        "currencyName": "Brazilian real",
+        "currencyCode": "BRL",
+        "dialingCode": "+55",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "127/220V / 60Hz，C/N 插头",
+        "domainSuffix": ".br",
+        "religion": "天主教、福音派",
+        "isoCode": "BR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "AR",
+      "nameZh": "阿根廷",
+      "nameEn": "Argentina",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "timezones": [
+        "UTC-03:00"
+      ],
+      "aliases": [
+        "argentina"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇦🇷",
+        "capital": "Buenos Aires",
+        "continent": "South America",
+        "population": "46,735,004 人",
+        "area": "2,780,400 km²",
+        "majorCities": [
+          "布宜诺斯艾利斯",
+          "科尔多瓦",
+          "罗萨里奥"
+        ],
+        "languages": [
+          "Guaraní",
+          "Spanish"
+        ],
+        "currencyName": "Argentine peso",
+        "currencyCode": "ARS",
+        "dialingCode": "+54",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 50Hz，C/I 插头",
+        "domainSuffix": ".ar",
+        "religion": "天主教",
+        "isoCode": "AR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CL",
+      "nameZh": "智利",
+      "nameEn": "Chile",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Santiago",
+      "timezones": [
+        "UTC-06:00",
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "chile"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇨🇱",
+        "capital": "Santiago",
+        "continent": "South America",
+        "population": "20,206,953 人",
+        "area": "756,102 km²",
+        "majorCities": [
+          "圣地亚哥",
+          "瓦尔帕莱索",
+          "康塞普西翁"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Chilean peso",
+        "currencyCode": "CLP",
+        "dialingCode": "+56",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD-MM-YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 50Hz，C/L 插头",
+        "domainSuffix": ".cl",
+        "religion": "天主教、福音派",
+        "isoCode": "CL"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CO",
+      "nameZh": "哥伦比亚",
+      "nameEn": "Colombia",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Bogota",
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "colombia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇨🇴",
+        "capital": "Bogotá",
+        "continent": "South America",
+        "population": "53,057,212 人",
+        "area": "1,141,748 km²",
+        "majorCities": [
+          "波哥大",
+          "麦德林",
+          "卡利"
+        ],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Colombian peso",
+        "currencyCode": "COP",
+        "dialingCode": "+57",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "110V / 60Hz，A/B 插头",
+        "domainSuffix": ".co",
+        "religion": "天主教",
+        "isoCode": "CO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PE",
+      "nameZh": "秘鲁",
+      "nameEn": "Peru",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Lima",
+      "timezones": [
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "peru"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇵🇪",
+        "capital": "Lima",
+        "continent": "South America",
+        "population": "34,350,244 人",
+        "area": "1,285,216 km²",
+        "majorCities": [
+          "利马",
+          "阿雷基帕",
+          "特鲁希略"
+        ],
+        "languages": [
+          "Aymara",
+          "Quechua",
+          "Spanish"
+        ],
+        "currencyName": "Peruvian sol",
+        "currencyCode": "PEN",
+        "dialingCode": "+51",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 60Hz，A/C 插头",
+        "domainSuffix": ".pe",
+        "religion": "天主教",
+        "isoCode": "PE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "EC",
+      "nameZh": "厄瓜多尔",
+      "nameEn": "Ecuador",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Guayaquil",
+      "timezones": [
+        "UTC-06:00",
+        "UTC-05:00"
+      ],
+      "aliases": [
+        "ecuador"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇪🇨",
+        "capital": "Quito",
+        "continent": "South America",
+        "population": "18,103,660 人",
+        "area": "276,841 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "United States dollar",
+        "currencyCode": "USD",
+        "dialingCode": "+593",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ec",
+        "religion": "待补充",
+        "isoCode": "EC"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "UY",
+      "nameZh": "乌拉圭",
+      "nameEn": "Uruguay",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Montevideo",
+      "timezones": [
+        "UTC-03:00"
+      ],
+      "aliases": [
+        "uruguay"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇺🇾",
+        "capital": "Montevideo",
+        "continent": "South America",
+        "population": "3,499,451 人",
+        "area": "181,034 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Uruguayan peso",
+        "currencyCode": "UYU",
+        "dialingCode": "+598",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".uy",
+        "religion": "待补充",
+        "isoCode": "UY"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PY",
+      "nameZh": "巴拉圭",
+      "nameEn": "Paraguay",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Asuncion",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "paraguay"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇵🇾",
+        "capital": "Asunción",
+        "continent": "South America",
+        "population": "6,109,644 人",
+        "area": "406,752 km²",
+        "majorCities": [],
+        "languages": [
+          "Guaraní",
+          "Spanish"
+        ],
+        "currencyName": "Paraguayan guaraní",
+        "currencyCode": "PYG",
+        "dialingCode": "+595",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".py",
+        "religion": "待补充",
+        "isoCode": "PY"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "BO",
+      "nameZh": "玻利维亚",
+      "nameEn": "Bolivia",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/La_Paz",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "bolivia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇧🇴",
+        "capital": "Sucre",
+        "continent": "South America",
+        "population": "11,365,333 人",
+        "area": "1,098,581 km²",
+        "majorCities": [],
+        "languages": [
+          "Aymara",
+          "Guaraní",
+          "Quechua",
+          "Spanish"
+        ],
+        "currencyName": "Bolivian boliviano",
+        "currencyCode": "BOB",
+        "dialingCode": "+591",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".bo",
+        "religion": "待补充",
+        "isoCode": "BO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "VE",
+      "nameZh": "委内瑞拉",
+      "nameEn": "Venezuela",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Caracas",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "venezuela"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇻🇪",
+        "capital": "Caracas",
+        "continent": "South America",
+        "population": "28,517,000 人",
+        "area": "916,445 km²",
+        "majorCities": [],
+        "languages": [
+          "Spanish"
+        ],
+        "currencyName": "Venezuelan bolívar soberano",
+        "currencyCode": "VES",
+        "dialingCode": "+58",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ve",
+        "religion": "待补充",
+        "isoCode": "VE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "GY",
+      "nameZh": "圭亚那",
+      "nameEn": "Guyana",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Guyana",
+      "timezones": [
+        "UTC-04:00"
+      ],
+      "aliases": [
+        "guyana"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇬🇾",
+        "capital": "Georgetown",
+        "continent": "South America",
+        "population": "772,975 人",
+        "area": "214,969 km²",
+        "majorCities": [],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Guyanese dollar",
+        "currencyCode": "GYD",
+        "dialingCode": "+592",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".gy",
+        "religion": "待补充",
+        "isoCode": "GY"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SR",
+      "nameZh": "苏里南",
+      "nameEn": "Suriname",
+      "continent": "South America",
+      "region": "South America",
+      "timezone": "America/Paramaribo",
+      "timezones": [
+        "UTC-03:00"
+      ],
+      "aliases": [
+        "suriname"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "16:30"
+      },
+      "meta": {
+        "flag": "🇸🇷",
+        "capital": "Paramaribo",
+        "continent": "South America",
+        "population": "616,500 人",
+        "area": "163,820 km²",
+        "majorCities": [],
+        "languages": [
+          "Dutch"
+        ],
+        "currencyName": "Surinamese dollar",
+        "currencyCode": "SRD",
+        "dialingCode": "+597",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".sr",
+        "religion": "待补充",
+        "isoCode": "SR"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ZA",
+      "nameZh": "南非",
+      "nameEn": "South Africa",
+      "continent": "Africa",
+      "region": "Southern Africa",
+      "timezone": "Africa/Johannesburg",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "south africa"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇿🇦",
+        "capital": "Pretoria / Bloemfontein / Cape Town",
+        "continent": "Africa",
+        "population": "63,100,945 人",
+        "area": "1,221,037 km²",
+        "majorCities": [
+          "约翰内斯堡",
+          "开普敦",
+          "德班"
+        ],
+        "languages": [
+          "Afrikaans",
+          "English",
+          "Southern Ndebele",
+          "Northern Sotho",
+          "Southern Sotho",
+          "Swazi",
+          "Tswana",
+          "Tsonga",
+          "Venda",
+          "Xhosa",
+          "Zulu"
+        ],
+        "currencyName": "South African rand",
+        "currencyCode": "ZAR",
+        "dialingCode": "+27",
+        "drivingSide": "左侧通行",
+        "dateFormat": "YYYY/MM/DD",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，C/D/M/N 插头",
+        "domainSuffix": ".za",
+        "religion": "基督教",
+        "isoCode": "ZA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "EG",
+      "nameZh": "埃及",
+      "nameEn": "Egypt",
+      "continent": "Africa",
+      "region": "North Africa",
+      "timezone": "Africa/Cairo",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "egypt"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇪🇬",
+        "capital": "Cairo",
+        "continent": "Africa",
+        "population": "107,271,260 人",
+        "area": "1,002,450 km²",
+        "majorCities": [
+          "开罗",
+          "亚历山大",
+          "吉萨"
+        ],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Egyptian pound",
+        "currencyCode": "EGP",
+        "dialingCode": "+20",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "220V / 50Hz，C/F 插头",
+        "domainSuffix": ".eg / .مصر",
+        "religion": "伊斯兰教",
+        "isoCode": "EG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NG",
+      "nameZh": "尼日利亚",
+      "nameEn": "Nigeria",
+      "continent": "Africa",
+      "region": "West Africa",
+      "timezone": "Africa/Lagos",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "nigeria"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇳🇬",
+        "capital": "Abuja",
+        "continent": "Africa",
+        "population": "223,800,000 人",
+        "area": "923,768 km²",
+        "majorCities": [
+          "拉各斯",
+          "阿布贾",
+          "卡诺"
+        ],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Nigerian naira",
+        "currencyCode": "NGN",
+        "dialingCode": "+234",
+        "drivingSide": "右侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，D/G 插头",
+        "domainSuffix": ".ng",
+        "religion": "伊斯兰教、基督教",
+        "isoCode": "NG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "KE",
+      "nameZh": "肯尼亚",
+      "nameEn": "Kenya",
+      "continent": "Africa",
+      "region": "East Africa",
+      "timezone": "Africa/Nairobi",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "kenya"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇰🇪",
+        "capital": "Nairobi",
+        "continent": "Africa",
+        "population": "53,330,978 人",
+        "area": "580,367 km²",
+        "majorCities": [
+          "内罗毕",
+          "蒙巴萨",
+          "基苏木"
+        ],
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "currencyName": "Kenyan shilling",
+        "currencyCode": "KES",
+        "dialingCode": "+254",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "240V / 50Hz，G 插头",
+        "domainSuffix": ".ke",
+        "religion": "基督教",
+        "isoCode": "KE"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TZ",
+      "nameZh": "坦桑尼亚",
+      "nameEn": "Tanzania",
+      "continent": "Africa",
+      "region": "East Africa",
+      "timezone": "Africa/Dar_es_Salaam",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "tanzania"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇹🇿",
+        "capital": "Dodoma",
+        "continent": "Africa",
+        "population": "68,153,004 人",
+        "area": "947,303 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "currencyName": "Tanzanian shilling",
+        "currencyCode": "TZS",
+        "dialingCode": "+255",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".tz",
+        "religion": "待补充",
+        "isoCode": "TZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "UG",
+      "nameZh": "乌干达",
+      "nameEn": "Uganda",
+      "continent": "Africa",
+      "region": "East Africa",
+      "timezone": "Africa/Kampala",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "uganda"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇺🇬",
+        "capital": "Kampala",
+        "continent": "Africa",
+        "population": "45,905,417 人",
+        "area": "241,550 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Swahili"
+        ],
+        "currencyName": "Ugandan shilling",
+        "currencyCode": "UGX",
+        "dialingCode": "+256",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ug",
+        "religion": "待补充",
+        "isoCode": "UG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "GH",
+      "nameZh": "加纳",
+      "nameEn": "Ghana",
+      "continent": "Africa",
+      "region": "West Africa",
+      "timezone": "Africa/Accra",
+      "timezones": [
+        "UTC"
+      ],
+      "aliases": [
+        "ghana"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇬🇭",
+        "capital": "Accra",
+        "continent": "Africa",
+        "population": "33,742,380 人",
+        "area": "238,533 km²",
+        "majorCities": [],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Ghanaian cedi",
+        "currencyCode": "GHS",
+        "dialingCode": "+233",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".gh",
+        "religion": "待补充",
+        "isoCode": "GH"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ET",
+      "nameZh": "埃塞俄比亚",
+      "nameEn": "Ethiopia",
+      "continent": "Africa",
+      "region": "East Africa",
+      "timezone": "Africa/Addis_Ababa",
+      "timezones": [
+        "UTC+03:00"
+      ],
+      "aliases": [
+        "ethiopia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇪🇹",
+        "capital": "Addis Ababa",
+        "continent": "Africa",
+        "population": "111,652,998 人",
+        "area": "1,104,300 km²",
+        "majorCities": [],
+        "languages": [
+          "Amharic"
+        ],
+        "currencyName": "Ethiopian birr",
+        "currencyCode": "ETB",
+        "dialingCode": "+251",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".et",
+        "religion": "待补充",
+        "isoCode": "ET"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "DZ",
+      "nameZh": "阿尔及利亚",
+      "nameEn": "Algeria",
+      "continent": "Africa",
+      "region": "North Africa",
+      "timezone": "Africa/Algiers",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "algeria"
+      ],
+      "businessHours": {
+        "workdays": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇩🇿",
+        "capital": "Algiers",
+        "continent": "Africa",
+        "population": "47,400,000 人",
+        "area": "2,381,741 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Algerian dinar",
+        "currencyCode": "DZD",
+        "dialingCode": "+213",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".dz / الجزائر.",
+        "religion": "待补充",
+        "isoCode": "DZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MA",
+      "nameZh": "摩洛哥",
+      "nameEn": "Morocco",
+      "continent": "Africa",
+      "region": "North Africa",
+      "timezone": "Africa/Casablanca",
+      "timezones": [
+        "UTC"
+      ],
+      "aliases": [
+        "morocco"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "18:00"
+      },
+      "meta": {
+        "flag": "🇲🇦",
+        "capital": "Rabat",
+        "continent": "Africa",
+        "population": "36,828,330 人",
+        "area": "446,550 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic",
+          "Berber"
+        ],
+        "currencyName": "Moroccan dirham",
+        "currencyCode": "MAD",
+        "dialingCode": "+212",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ma / المغرب.",
+        "religion": "待补充",
+        "isoCode": "MA"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TN",
+      "nameZh": "突尼斯",
+      "nameEn": "Tunisia",
+      "continent": "Africa",
+      "region": "North Africa",
+      "timezone": "Africa/Tunis",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "tunisia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:30"
+      },
+      "meta": {
+        "flag": "🇹🇳",
+        "capital": "Tunis",
+        "continent": "Africa",
+        "population": "11,972,169 人",
+        "area": "163,610 km²",
+        "majorCities": [],
+        "languages": [
+          "Arabic"
+        ],
+        "currencyName": "Tunisian dinar",
+        "currencyCode": "TND",
+        "dialingCode": "+216",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".tn",
+        "religion": "待补充",
+        "isoCode": "TN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CI",
+      "nameZh": "科特迪瓦",
+      "nameEn": "Ivory Coast",
+      "continent": "Africa",
+      "region": "West Africa",
+      "timezone": "Africa/Abidjan",
+      "timezones": [
+        "UTC"
+      ],
+      "aliases": [
+        "ivory coast",
+        "cote d'ivoire"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇨🇮",
+        "capital": "Yamoussoukro",
+        "continent": "Africa",
+        "population": "31,719,275 人",
+        "area": "322,463 km²",
+        "majorCities": [],
+        "languages": [
+          "French"
+        ],
+        "currencyName": "West African CFA franc",
+        "currencyCode": "XOF",
+        "dialingCode": "+225",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ci",
+        "religion": "待补充",
+        "isoCode": "CI"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SN",
+      "nameZh": "塞内加尔",
+      "nameEn": "Senegal",
+      "continent": "Africa",
+      "region": "West Africa",
+      "timezone": "Africa/Dakar",
+      "timezones": [
+        "UTC"
+      ],
+      "aliases": [
+        "senegal"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:30",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇸🇳",
+        "capital": "Dakar",
+        "continent": "Africa",
+        "population": "18,593,258 人",
+        "area": "196,722 km²",
+        "majorCities": [],
+        "languages": [
+          "French"
+        ],
+        "currencyName": "West African CFA franc",
+        "currencyCode": "XOF",
+        "dialingCode": "+221",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".sn",
+        "religion": "待补充",
+        "isoCode": "SN"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "CM",
+      "nameZh": "喀麦隆",
+      "nameEn": "Cameroon",
+      "continent": "Africa",
+      "region": "Central Africa",
+      "timezone": "Africa/Douala",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "cameroon"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇨🇲",
+        "capital": "Yaoundé",
+        "continent": "Africa",
+        "population": "29,442,327 人",
+        "area": "475,442 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "French"
+        ],
+        "currencyName": "Central African CFA franc",
+        "currencyCode": "XAF",
+        "dialingCode": "+237",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".cm",
+        "religion": "待补充",
+        "isoCode": "CM"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ZM",
+      "nameZh": "赞比亚",
+      "nameEn": "Zambia",
+      "continent": "Africa",
+      "region": "Southern Africa",
+      "timezone": "Africa/Lusaka",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "zambia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇿🇲",
+        "capital": "Lusaka",
+        "continent": "Africa",
+        "population": "19,693,423 人",
+        "area": "752,612 km²",
+        "majorCities": [],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Zambian kwacha",
+        "currencyCode": "ZMW",
+        "dialingCode": "+260",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".zm",
+        "religion": "待补充",
+        "isoCode": "ZM"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "ZW",
+      "nameZh": "津巴布韦",
+      "nameEn": "Zimbabwe",
+      "continent": "Africa",
+      "region": "Southern Africa",
+      "timezone": "Africa/Harare",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "zimbabwe"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇿🇼",
+        "capital": "Harare",
+        "continent": "Africa",
+        "population": "17,073,087 人",
+        "area": "390,757 km²",
+        "majorCities": [],
+        "languages": [
+          "Chibarwe",
+          "English",
+          "Kalanga",
+          "Khoisan",
+          "Ndau",
+          "Northern Ndebele",
+          "Chewa",
+          "Shona",
+          "Sotho",
+          "Tonga",
+          "Tswana",
+          "Tsonga",
+          "Venda",
+          "Xhosa",
+          "Zimbabwean Sign Language"
+        ],
+        "currencyName": "Zimbabwean dollar",
+        "currencyCode": "ZWL",
+        "dialingCode": "+263",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".zw",
+        "religion": "待补充",
+        "isoCode": "ZW"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "MZ",
+      "nameZh": "莫桑比克",
+      "nameEn": "Mozambique",
+      "continent": "Africa",
+      "region": "Southern Africa",
+      "timezone": "Africa/Maputo",
+      "timezones": [
+        "UTC+02:00"
+      ],
+      "aliases": [
+        "mozambique"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇲🇿",
+        "capital": "Maputo",
+        "continent": "Africa",
+        "population": "34,090,466 人",
+        "area": "801,590 km²",
+        "majorCities": [],
+        "languages": [
+          "Portuguese"
+        ],
+        "currencyName": "Mozambican metical",
+        "currencyCode": "MZN",
+        "dialingCode": "+258",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".mz",
+        "religion": "待补充",
+        "isoCode": "MZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "AO",
+      "nameZh": "安哥拉",
+      "nameEn": "Angola",
+      "continent": "Africa",
+      "region": "Southern Africa",
+      "timezone": "Africa/Luanda",
+      "timezones": [
+        "UTC+01:00"
+      ],
+      "aliases": [
+        "angola"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇦🇴",
+        "capital": "Luanda",
+        "continent": "Africa",
+        "population": "36,170,961 人",
+        "area": "1,246,700 km²",
+        "majorCities": [],
+        "languages": [
+          "Portuguese"
+        ],
+        "currencyName": "Angolan kwanza",
+        "currencyCode": "AOA",
+        "dialingCode": "+244",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ao",
+        "religion": "待补充",
+        "isoCode": "AO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "AU",
+      "nameZh": "澳大利亚",
+      "nameEn": "Australia",
+      "continent": "Oceania",
+      "region": "Oceania",
+      "timezone": "Australia/Sydney",
+      "timezones": [
+        "UTC+05:00",
+        "UTC+06:30",
+        "UTC+07:00",
+        "UTC+08:00",
+        "UTC+09:30",
+        "UTC+10:00",
+        "UTC+10:30",
+        "UTC+11:30"
+      ],
+      "aliases": [
+        "australia"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇦🇺",
+        "capital": "Canberra",
+        "continent": "Oceania",
+        "population": "27,536,874 人",
+        "area": "7,692,024 km²",
+        "majorCities": [
+          "悉尼",
+          "墨尔本",
+          "布里斯班"
+        ],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Australian dollar",
+        "currencyCode": "AUD",
+        "dialingCode": "+61",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，I 插头",
+        "domainSuffix": ".au",
+        "religion": "基督教、无宗教",
+        "isoCode": "AU"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "NZ",
+      "nameZh": "新西兰",
+      "nameEn": "New Zealand",
+      "continent": "Oceania",
+      "region": "Oceania",
+      "timezone": "Pacific/Auckland",
+      "timezones": [
+        "UTC-11:00",
+        "UTC-10:00",
+        "UTC+12:00",
+        "UTC+12:45",
+        "UTC+13:00"
+      ],
+      "aliases": [
+        "new zealand",
+        "nz"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇳🇿",
+        "capital": "Wellington",
+        "continent": "Oceania",
+        "population": "5,324,700 人",
+        "area": "268,838 km²",
+        "majorCities": [
+          "奥克兰",
+          "惠灵顿",
+          "基督城"
+        ],
+        "languages": [
+          "English",
+          "Māori",
+          "New Zealand Sign Language"
+        ],
+        "currencyName": "New Zealand dollar",
+        "currencyCode": "NZD",
+        "dialingCode": "+64",
+        "drivingSide": "左侧通行",
+        "dateFormat": "DD/MM/YYYY",
+        "measurementStyle": "公制，温度用摄氏度",
+        "powerStandard": "230V / 50Hz，I 插头",
+        "domainSuffix": ".nz",
+        "religion": "基督教、无宗教",
+        "isoCode": "NZ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "PG",
+      "nameZh": "巴布亚新几内亚",
+      "nameEn": "Papua New Guinea",
+      "continent": "Oceania",
+      "region": "Melanesia",
+      "timezone": "Pacific/Port_Moresby",
+      "timezones": [
+        "UTC+10:00"
+      ],
+      "aliases": [
+        "papua new guinea"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇵🇬",
+        "capital": "Port Moresby",
+        "continent": "Oceania",
+        "population": "11,781,559 人",
+        "area": "462,840 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Hiri Motu",
+          "Tok Pisin"
+        ],
+        "currencyName": "Papua New Guinean kina",
+        "currencyCode": "PGK",
+        "dialingCode": "+675",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".pg",
+        "religion": "待补充",
+        "isoCode": "PG"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "FJ",
+      "nameZh": "斐济",
+      "nameEn": "Fiji",
+      "continent": "Oceania",
+      "region": "Melanesia",
+      "timezone": "Pacific/Fiji",
+      "timezones": [
+        "UTC+12:00"
+      ],
+      "aliases": [
+        "fiji"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇫🇯",
+        "capital": "Suva",
+        "continent": "Oceania",
+        "population": "900,869 人",
+        "area": "18,272 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Fijian",
+          "Fiji Hindi"
+        ],
+        "currencyName": "Fijian dollar",
+        "currencyCode": "FJD",
+        "dialingCode": "+679",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".fj",
+        "religion": "待补充",
+        "isoCode": "FJ"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "WS",
+      "nameZh": "萨摩亚",
+      "nameEn": "Samoa",
+      "continent": "Oceania",
+      "region": "Polynesia",
+      "timezone": "Pacific/Apia",
+      "timezones": [
+        "UTC+13:00"
+      ],
+      "aliases": [
+        "samoa"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇼🇸",
+        "capital": "Apia",
+        "continent": "Oceania",
+        "population": "205,557 人",
+        "area": "2,842 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Samoan"
+        ],
+        "currencyName": "Samoan tālā",
+        "currencyCode": "WST",
+        "dialingCode": "+685",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".ws",
+        "religion": "待补充",
+        "isoCode": "WS"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "TO",
+      "nameZh": "汤加",
+      "nameEn": "Tonga",
+      "continent": "Oceania",
+      "region": "Polynesia",
+      "timezone": "Pacific/Tongatapu",
+      "timezones": [
+        "UTC+13:00"
+      ],
+      "aliases": [
+        "tonga"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "09:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇹🇴",
+        "capital": "Nuku'alofa",
+        "continent": "Oceania",
+        "population": "100,179 人",
+        "area": "747 km²",
+        "majorCities": [],
+        "languages": [
+          "English",
+          "Tongan"
+        ],
+        "currencyName": "Tongan paʻanga",
+        "currencyCode": "TOP",
+        "dialingCode": "+676",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".to",
+        "religion": "待补充",
+        "isoCode": "TO"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "SB",
+      "nameZh": "所罗门群岛",
+      "nameEn": "Solomon Islands",
+      "continent": "Oceania",
+      "region": "Melanesia",
+      "timezone": "Pacific/Guadalcanal",
+      "timezones": [
+        "UTC+11:00"
+      ],
+      "aliases": [
+        "solomon islands"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇸🇧",
+        "capital": "Honiara",
+        "continent": "Oceania",
+        "population": "750,325 人",
+        "area": "28,896 km²",
+        "majorCities": [],
+        "languages": [
+          "English"
+        ],
+        "currencyName": "Solomon Islands dollar",
+        "currencyCode": "SBD",
+        "dialingCode": "+677",
+        "drivingSide": "左侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".sb",
+        "religion": "待补充",
+        "isoCode": "SB"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    },
+    {
+      "code": "VU",
+      "nameZh": "瓦努阿图",
+      "nameEn": "Vanuatu",
+      "continent": "Oceania",
+      "region": "Melanesia",
+      "timezone": "Pacific/Efate",
+      "timezones": [
+        "UTC+11:00"
+      ],
+      "aliases": [
+        "vanuatu"
+      ],
+      "businessHours": {
+        "workdays": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "start": "08:00",
+        "end": "17:00"
+      },
+      "meta": {
+        "flag": "🇻🇺",
+        "capital": "Port Vila",
+        "continent": "Oceania",
+        "population": "321,409 人",
+        "area": "12,189 km²",
+        "majorCities": [],
+        "languages": [
+          "Bislama",
+          "English",
+          "French"
+        ],
+        "currencyName": "Vanuatu vatu",
+        "currencyCode": "VUV",
+        "dialingCode": "+678",
+        "drivingSide": "右侧通行",
+        "dateFormat": "待补充",
+        "measurementStyle": "待补充",
+        "powerStandard": "待补充",
+        "domainSuffix": ".vu",
+        "religion": "待补充",
+        "isoCode": "VU"
+      },
+      "sources": {
+        "foundation": "REST Countries",
+        "tradeProfile": "Local trade defaults"
+      }
+    }
+  ],
+  "sync": {
+    "status": "live",
+    "reason": "manual",
+    "sourceLabel": "REST Countries + local trade defaults",
+    "lastUpdatedAt": "2026-04-08T12:46:49.199Z",
+    "lastAttemptAt": "2026-04-08T12:46:47.637Z",
+    "lastError": null
+  }
+}
